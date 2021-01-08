@@ -1,0 +1,67 @@
+.form {
+  position: relative;
+
+  margin-bottom: 30px;
+}
+
+.addField {
+  margin-right: 10px;
+  padding: 5px;
+
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+}
+
+.btn {
+  padding: 7px;
+
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+
+  cursor: pointer;
+
+  transition: background-color 250ms ease, color 250ms ease;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: orange;
+  color: black;
+}
+
+.btn:disabled,
+.btn:disabled {
+  background-color: gray;
+  cursor: auto;
+}
+
+.btn:disabled:hover,
+.btn:disabled:focus {
+  background-color: gray;
+  color: white;
+}
+
+.nameError {
+  position: absolute;
+  top: 40px;
+  left: 10px;
+
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  color: red;
+}
+
+.numberError {
+  position: absolute;
+  top: 40px;
+  left: 230px;
+
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  color: red;
+}
